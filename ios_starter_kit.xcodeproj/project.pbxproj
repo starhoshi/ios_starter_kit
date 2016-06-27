@@ -117,12 +117,12 @@
 		8C04E08C1D20FE0400D88603 = {
 			isa = PBXGroup;
 			children = (
+				34270A98ED4E987973542B5A /* Frameworks */,
+				50A3253E4459F4F9AC4DA77D /* Pods */,
+				8C04E0961D20FE0400D88603 /* Products */,
 				8C04E0971D20FE0400D88603 /* ios_starter_kit */,
 				8C04E0AC1D20FE0400D88603 /* ios_starter_kitTests */,
 				8C04E0B71D20FE0400D88603 /* ios_starter_kitUITests */,
-				8C04E0961D20FE0400D88603 /* Products */,
-				50A3253E4459F4F9AC4DA77D /* Pods */,
-				34270A98ED4E987973542B5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,14 +139,14 @@
 		8C04E0971D20FE0400D88603 /* ios_starter_kit */ = {
 			isa = PBXGroup;
 			children = (
-				8C04E0C71D212B0500D88603 /* Utils */,
 				8C04E0C61D212AF600D88603 /* Extensions */,
+				8C04E0C71D212B0500D88603 /* Utils */,
 				8C04E0981D20FE0400D88603 /* AppDelegate.swift */,
-				8C04E09A1D20FE0400D88603 /* ViewController.swift */,
-				8C04E09C1D20FE0400D88603 /* Main.storyboard */,
 				8C04E09F1D20FE0400D88603 /* Assets.xcassets */,
-				8C04E0A11D20FE0400D88603 /* LaunchScreen.storyboard */,
 				8C04E0A41D20FE0400D88603 /* Info.plist */,
+				8C04E0A11D20FE0400D88603 /* LaunchScreen.storyboard */,
+				8C04E09C1D20FE0400D88603 /* Main.storyboard */,
+				8C04E09A1D20FE0400D88603 /* ViewController.swift */,
 			);
 			path = ios_starter_kit;
 			sourceTree = "<group>";
@@ -154,8 +154,8 @@
 		8C04E0AC1D20FE0400D88603 /* ios_starter_kitTests */ = {
 			isa = PBXGroup;
 			children = (
-				8C04E0AD1D20FE0400D88603 /* ios_starter_kitTests.swift */,
 				8C04E0AF1D20FE0400D88603 /* Info.plist */,
+				8C04E0AD1D20FE0400D88603 /* ios_starter_kitTests.swift */,
 			);
 			path = ios_starter_kitTests;
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 		8C04E0B71D20FE0400D88603 /* ios_starter_kitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8C04E0B81D20FE0400D88603 /* ios_starter_kitUITests.swift */,
 				8C04E0BA1D20FE0400D88603 /* Info.plist */,
+				8C04E0B81D20FE0400D88603 /* ios_starter_kitUITests.swift */,
 			);
 			path = ios_starter_kitUITests;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8C04E0C71D212B0500D88603 /* Utils */ = {
@@ -181,7 +181,7 @@
 			children = (
 				8C831FBB1D212D9200C6C7B5 /* Logger.swift */,
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +490,7 @@
 				8C04E09D1D20FE0400D88603 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		8C04E0A11D20FE0400D88603 /* LaunchScreen.storyboard */ = {
@@ -498,6 +499,7 @@
 				8C04E0A21D20FE0400D88603 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
