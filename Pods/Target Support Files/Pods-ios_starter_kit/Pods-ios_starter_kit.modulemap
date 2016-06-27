@@ -1,0 +1,6 @@
+framework module Pods_ios_starter_kit {
+  umbrella header "Pods-ios_starter_kit-umbrella.h"
+
+  export *
+  module * { export * }
+}
