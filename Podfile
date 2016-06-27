@@ -29,7 +29,8 @@ target 'ios_starter_kit' do
 
   target 'ios_starter_kitTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Nimble'
+    pod 'Quick'
   end
 
   target 'ios_starter_kitUITests' do
