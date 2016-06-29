@@ -15,4 +15,14 @@ iOS Swift project template.
 brew install swiftlint
 ```
 
+### Xcode Plugins
+
+Recommend Alcatraz.
+
+* Swimat
+    * 2 Space Indent
+    * Format when Save
+    * Format when Build
+* KZLinkedConsole
+* XcodeColors
 
