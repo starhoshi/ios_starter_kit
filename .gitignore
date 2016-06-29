@@ -92,3 +92,9 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+
+# R.swift
+#
+# Add the *.generated.swift pattern to your .gitignore file to prevent unnecessary conflicts.
+*.generated.swift

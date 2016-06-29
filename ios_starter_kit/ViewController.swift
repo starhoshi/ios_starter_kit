@@ -13,6 +13,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     print(Constants.SONETORE.URL.INDEX)
+    log?.info(R.image.music)
 
     // Do any additional setup after loading the view, typically from a nib.
   }
