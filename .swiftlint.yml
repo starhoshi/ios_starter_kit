@@ -4,6 +4,7 @@ disabled_rules:
 excluded:
   - Carthage
   - Pods
+  - ios_starter_kit/Resources/R.generated.swift
 
 variable_name:
   min_length:
