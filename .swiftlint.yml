@@ -1,0 +1,11 @@
+disabled_rules:
+  - nesting
+
+excluded:
+  - Carthage
+  - Pods
+
+variable_name:
+  min_length:
+    error: 1
+    warning: 2
