@@ -1,6 +1,6 @@
 # ios_starter_kit
 
-iOS Swift project template.
+iOS Swift Project Boilerplate.
 
 ## Requirements
 
