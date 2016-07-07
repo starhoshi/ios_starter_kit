@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HWE-ri-0rX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qke-7Z-oTx">
+            <objects>
+                <navigationController id="HWE-ri-0rX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hd6-wG-q7U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WfW-JW-NZW" kind="relationship" relationship="rootViewController" id="yTl-kg-Fv4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LVe-GU-BqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-809" y="407"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="0zg-b9-gHz">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfW-JW-NZW" customClass="LoginViewController" customModule="ios_starter_kit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ijm-4V-LTq"/>
+                        <viewControllerLayoutGuide type="bottom" id="oRY-I8-hJu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gik-Mz-zd2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kyr-s8-kn1">
+                                <rect key="frame" x="116" y="119" width="369" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2zz-W8-yEY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wBH-7e-xOF">
+                                <rect key="frame" x="116" y="206" width="369" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Amr-HW-UwF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrU-8A-0nd">
+                                <rect key="frame" x="257" y="244" width="87" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="TYZ-1r-wfe"/>
+                                    <constraint firstAttribute="height" constant="30" id="mNf-lW-pnQ"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kyr-s8-kn1" secondAttribute="trailing" constant="95" id="7aA-E0-aut"/>
+                            <constraint firstItem="KrU-8A-0nd" firstAttribute="top" secondItem="wBH-7e-xOF" secondAttribute="bottom" constant="8" id="J1g-Xj-Qxo"/>
+                            <constraint firstItem="Kyr-s8-kn1" firstAttribute="top" secondItem="ijm-4V-LTq" secondAttribute="bottom" constant="55" id="JOm-zK-b3L"/>
+                            <constraint firstItem="wBH-7e-xOF" firstAttribute="top" secondItem="Kyr-s8-kn1" secondAttribute="bottom" constant="57" id="Mkm-fF-97I"/>
+                            <constraint firstItem="Kyr-s8-kn1" firstAttribute="leading" secondItem="gik-Mz-zd2" secondAttribute="leadingMargin" constant="96" id="S3d-ex-OB7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wBH-7e-xOF" secondAttribute="trailing" constant="95" id="ZzL-3k-nwm"/>
+                            <constraint firstItem="KrU-8A-0nd" firstAttribute="centerX" secondItem="gik-Mz-zd2" secondAttribute="centerX" id="iTO-Cg-SNi"/>
+                            <constraint firstItem="wBH-7e-xOF" firstAttribute="leading" secondItem="gik-Mz-zd2" secondAttribute="leadingMargin" constant="96" id="jSJ-Kj-BAv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login" id="sUw-Ri-91E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QWK-2h-SWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="407"/>
+        </scene>
+    </scenes>
+</document>

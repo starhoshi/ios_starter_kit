@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController
 //  ios_starter_kit
 //
 //  Created by 星川　健介 on 2016/06/27.
@@ -8,19 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
     print(Constants.SONETORE.URL.INDEX)
     log?.info(R.image.music)
-
-    // Do any additional setup after loading the view, typically from a nib.
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
 
 }
