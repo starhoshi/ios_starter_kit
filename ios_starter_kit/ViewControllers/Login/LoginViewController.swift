@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class LoginViewController: UIViewController {
 
@@ -14,6 +15,12 @@ class LoginViewController: UIViewController {
     super.viewDidLoad()
     print(Constants.SONETORE.URL.INDEX)
     log?.info(R.image.music)
+    let context = SampleRequestContext()
+    let request = context.create { (response: Alamofire.Response<String, NSError>) in
+      log?.info(response)
+      // レスポンス
+    }
+    request.resume()
   }
 
   override func didReceiveMemoryWarning() {

@@ -24,9 +24,10 @@ target 'ios_starter_kit' do
   #pod 'Crashlytics'
   #pod 'JLToast'
   pod 'Log'
-  #pod 'Firebase'
   pod 'RealmSwift'
   pod 'R.swift'
+  pod 'Alamofire'
+  pod 'ObjectMapper'
 
   target 'ios_starter_kitTests' do
     inherit! :search_paths
